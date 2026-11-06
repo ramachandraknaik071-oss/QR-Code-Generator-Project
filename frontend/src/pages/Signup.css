@@ -1,0 +1,67 @@
+/* frontend/src/pages/Signup.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.signupPage {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../Images/signBg.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signupBox {
+  width: 420px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 40px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.signupBox h1 {
+  margin-bottom: 25px;
+  color: #222;
+}
+
+.signupBox input {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.signupBox button {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  background: #222;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.signupBox button:hover {
+  background: #444;
+}
+
+.signupBox p {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.loginLink {
+  color: blue;
+  cursor: pointer;
+  font-weight: bold;
+}
